@@ -1,0 +1,59 @@
+*{
+margin: o;
+padding: 0;
+border: none;
+outline: none;
+}
+
+.header{
+    position: relative;
+    width: 30%;
+    margin: auto;
+    }
+
+.header img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.table{
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    top: 3em;
+    text-align: center;
+}
+
+.table .title{
+    color: #888;
+}
+
+.table .liste{
+    width: 100%;
+    padding: .1em;
+}
+
+.table .liste thead th{
+    color: #888;
+    padding-bottom: .5em;
+}
+
+.table .liste tbody td{
+    color: #333;
+    padding: .5em;
+}
+
+.footer{
+    position: fixed;
+    width: 40%;
+    margin: 0 auto;
+    right: 0%;
+    left: 0%;
+    bottom: 0;
+}
+
+.footer img{
+    width: 100%;
+    object-fit: cover;
+}
+
